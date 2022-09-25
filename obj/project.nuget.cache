@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rNFZAoBXyCDBR9f4q8fPtfC3H92fxB8xXj87AsznPI9tw2nUWeFAFoSoBRLW4MQ8kqAPhsVuB7tOeXzTTLtZ0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jburn\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SlowLogic\\SlowLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jburn\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

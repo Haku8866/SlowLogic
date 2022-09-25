@@ -1,0 +1,7 @@
+Slow Logic adds a delay between the TripWire() function being called and the TripWire() function actually being executed.
+You can set the delay to 0 ticks and your game will not crash if you hook the output of a logic gate back to the input.
+
+As long as your circuit does not involve smoke, it should work with this mod enabled.
+
+It's important to note that this mod does not add a propagation delay to logic gates specifically, but rather a delay to all wiring components. This means that there will be a delay inserted between you flicking a switch and the switch sending an output.
+I haven't tested this in multiplayer, it's not designed to be a multiplayer mod.

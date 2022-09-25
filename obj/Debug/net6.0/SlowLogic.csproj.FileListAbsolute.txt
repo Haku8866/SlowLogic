@@ -1,0 +1,5 @@
+C:\Users\jburn\Documents\My Games\Terraria\tModLoader\ModSources\SlowLogic\obj\Debug\net6.0\SlowLogic.csproj.AssemblyReference.cache
+C:\Users\jburn\Documents\My Games\Terraria\tModLoader\ModSources\SlowLogic\obj\Debug\net6.0\SlowLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jburn\Documents\My Games\Terraria\tModLoader\ModSources\SlowLogic\obj\Debug\net6.0\SlowLogic.AssemblyInfoInputs.cache
+C:\Users\jburn\Documents\My Games\Terraria\tModLoader\ModSources\SlowLogic\obj\Debug\net6.0\SlowLogic.AssemblyInfo.cs
+C:\Users\jburn\Documents\My Games\Terraria\tModLoader\ModSources\SlowLogic\obj\Debug\net6.0\SlowLogic.csproj.CoreCompileInputs.cache

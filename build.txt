@@ -1,0 +1,3 @@
+displayName = Slow logic gates
+author = Haku
+version = 0.1.2

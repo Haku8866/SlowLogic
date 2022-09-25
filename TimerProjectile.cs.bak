@@ -1,0 +1,32 @@
+﻿using Terraria.ModLoader;
+using Terraria;
+using static Terraria.ModLoader.ModContent;
+namespace SlowLogic
+{
+    class TimerProjectile : ModProjectile
+    {
+        public override void SetDefaults()
+        {
+            //make the projectile invisible and stop it from being affected by anything
+            int delay = GetInstance<SlowConfig>().PropagationDelay;
+            projectile.height = 1;
+            projectile.width = 1;
+            projectile.timeLeft = delay;
+            projectile.alpha = 0;
+            projectile.penetrate = -1;
+            projectile.hostile = false;
+            projectile.magic = false;
+            projectile.tileCollide = false;
+            projectile.ignoreWater = true;
+        }
+        public override void Kill(int timeLeft)
+        {
+            //when the projectile dies, call TripWire() with permission on the tile it was spawned on
+            int x = (int)projectile.position.X;
+            int y = (int)projectile.position.Y;
+            SlowLogic.AllowTripWire = true;
+            Wiring.TripWire(x, y, 1, 1);
+            base.Kill(timeLeft);
+        }
+    }
+}
